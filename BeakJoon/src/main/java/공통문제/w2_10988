@@ -1,0 +1,5 @@
+a = input()
+if a == a[::-1]:    # 슬라이싱 값이 -1f로 역방향
+    print(1)
+else:
+    print(0)
